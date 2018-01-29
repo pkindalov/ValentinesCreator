@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Валентинки галерия</title>
+	<meta charset="utf-8" />
+
+	<!--<script type="text/javascript" src="scripts/reimg.js"></script>-->
+	<script type="text/javascript" src="scripts/canvas-to-blob.js"></script>
+	<script type="text/javascript" src="scripts/Blob.js"></script>
+	<script type="text/javascript" src="scripts/FileSaver.js"></script>
+	<script type="text/javascript" src="scripts/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="scripts/CanvasText-0.4.1.js"></script>
+	
+	<!--<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>-->
+
+
+	<script type="text/javascript" src="scripts/main.js"></script>
+
+
+	<!-- include libraries(jQuery, bootstrap) -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+
+	<!-- include summernote css/js-->
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+
+
+
+</head>
+
+<body>
+
+
+
+	<div class="panel-default container">
+		<div class="panel-heading" style="background-color: pink; border-color: red;">
+			<div class="buttons"></div>
+		</div>
+		<div class="browseImg"></div>
+		<canvas id="editPic"  height="1200px" width="900px">
+					<!-- <script>
+							var canvas = document.getElementById('editPic');
+							var context = canvas.getContext('2d');
+							var imageObj = new Image();
+
+							imageObj.onload = function() {
+								context.drawImage(imageObj, 69, 50);
+							};
+							imageObj.src = 'http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg';
+					</script> -->
+				</canvas>
+		<!-- <div class="buttons"></div> -->
+		<div class="loveQuote"></div>
+		<div class="whereToDrawText"></div>
+		<div class="loveQuoteButtons"></div>
+		<div class="form-group">
+			<div class="userTextForm">
+				<!-- <textarea class="userQuote" name="userQuote" rows = "5" cols="54">Your Valentine Text Here</textarea> -->
+				<!-- <button class="btn btn-primary" onclick="drawYourTextOnImage();">Write On Picture</button> -->
+				<!-- <button class="btn btn-warning">Clear Your Text</button> -->
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+
+
+	<!-- <script>
+	 	$(document).ready(function(){
+			alert('ready');
+		});
+	 </script> -->
+
+
+
+</body>
+
+</html>
